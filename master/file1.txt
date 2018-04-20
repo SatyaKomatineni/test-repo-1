@@ -29,3 +29,4 @@ Uncommited Additions during the switch are kept!
 
 what did I learn?
 ********************
+See my git folder on akc
