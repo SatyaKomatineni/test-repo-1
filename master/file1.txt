@@ -1,1 +1,31 @@
-line from master.
+Testcase
+**************
+What happens when I switch to a new branch while there are pending changes that are not indexed.
+
+Test
+********  
+switch to master
+add an extra line
+
+switch to branch2
+see if the extra line is there
+
+//Yes it is there
+
+commit to branch2
+
+switch to master
+See if the extra line, which was originally entered on master is there
+
+//No it is not there
+
+Conclusion
+*************
+Only commited changes are brought back
+(including commited deletions)
+
+Uncommited Additions during the switch are kept! 
+
+
+what did I learn?
+********************
