@@ -2,6 +2,7 @@ line from master.
 //test1
 Change before branch 2
 Saved, but not staged. 
+
 Testcase
 **************
 What happens when I switch to a new branch while there are pending changes that are not indexed.
