@@ -1,1 +1,4 @@
 line from master.
+//test1
+Change before branch 2
+Saved, but not staged. 
